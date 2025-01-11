@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Monitor Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header class="header">
+            <h1>IoT Monitor Dashboard</h1>
+            <p>Real-Time Soil Data Monitoring</p>
+        </header>
+        <main class="main-content">
+            <div class="sensor-data">
+                <div class="sensor-card" id="humidity">
+                    <h2>Humidity</h2>
+                    <p class="value" id="humidityValue">0%</p>
+                </div>
+                <div class="sensor-card" id="temperature">
+                    <h2>Temperature</h2>
+                    <p class="value" id="temperatureValue">0°C</p>
+                </div>
+                <div class="sensor-card" id="nitrogen">
+                    <h2>Nitrogen</h2>
+                    <p class="value" id="nitrogenValue">0ppm</p>
+                </div>
+            </div>
+            <div class="graph-section">
+                <h2>Trends</h2>
+                <canvas id="dataChart"></canvas>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 IoT Dashboard</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
