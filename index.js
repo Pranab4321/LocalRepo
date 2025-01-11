@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sensorData = {
         humidity: 55,
         temperature: 23,
-        nitrogen: 200,
+        
     };
 
     // Update sensor values
