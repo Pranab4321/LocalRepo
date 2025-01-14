@@ -6,7 +6,7 @@ function add(){
 
 console.log(add());
 
-const a=5, b=7;
+const e=5, f=7;
 function add(){
     let d = a+b;
 
