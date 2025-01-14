@@ -5,3 +5,12 @@ function add(){
 }
 
 console.log(add());
+
+const a=5, b=7;
+function add(){
+    let d = a+b;
+
+    return d;
+}
+
+console.log(add());
